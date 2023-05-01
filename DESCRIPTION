@@ -1,0 +1,23 @@
+Package: rpytetrad
+Type: Package
+Title: R Interface to 'py-tetrad'
+Version: 0.1.0.9000
+Author: Who wrote it
+Maintainer: Yasuhiro Shimodaira <shimodaira.yasuhiro@exc.epson.co.jp>
+Description: Interface to 'TETRAD'<https://github.com/cmu-phil/tetrad>, 
+  via python package 'py-tetrad'<https://github.com/cmu-phil/py-tetrad>
+  with reticulate package. 
+  This package is intended to make prototypes trials. 
+License: To be determined(ex. MIT License)
+SystemRequirements: 
+    Java (>= 8)
+    Python (>=3.7)
+Encoding: UTF-8
+Depends: 
+    R (>= 3.0)
+Imports: 
+    reticulate,
+    DiagrammeR
+Suggests: 
+    pcalg,
+    psych

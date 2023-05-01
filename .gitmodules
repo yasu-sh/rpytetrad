@@ -1,0 +1,3 @@
+[submodule "py-tetrad"]
+	path = py-tetrad
+	url = https://github.com/cmu-phil/py-tetrad
