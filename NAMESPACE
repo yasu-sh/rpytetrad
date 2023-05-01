@@ -1,8 +1,5 @@
 import(reticulate)
-<<<<<<< HEAD
 import(DiagrammeR)
-=======
->>>>>>> cef4c385927af3955493d2f8ec0ea96a969d1e81
 # export all, TBD
 # This section is important for users to see only usable functions/parameters.
 exportPattern("^[[:alpha:]]+")
